@@ -1,0 +1,35 @@
+body {
+    background-image: linear-gradient(45deg, rgb(62, 20, 214), rgb(62, 20, 214) );
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    height: 100%;
+}
+
+.wrapper{
+    width: 800px;
+    margin: 30px auto;
+    color: white;
+    text-align: center;
+}
+
+h1, h2, h3 {
+font-family: 'roboto', sans-serif;
+font-weight: 100;
+font-size: 2.6em;
+text-transform: uppercase;
+}
+
+#segundos, #minutos{
+    font-size: 2em;
+}
+.botao{
+    
+    font-size: 25px;
+    margin: 3px;
+    cursor: pointer;
+    background-color: rgb(62, 20, 214);
+    border: none;
+    color: white;
+}
+.botao:hover{
+    background-color: rgb(30, 2, 116);
+}
